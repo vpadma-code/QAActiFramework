@@ -39,7 +39,7 @@ public class TasksPage extends DriverScript {
     public void CustomerDetails()
     {
      Commons.Highlightelements(CustomerNameTB);
-	 CustomerNameTB.sendKeys("Test AddCustomer");
+	 CustomerNameTB.sendKeys("Test AddCustomer1");
 	 Commons.Highlightelements(CustomerBtn);
 	 CustomerBtn.click();
     }

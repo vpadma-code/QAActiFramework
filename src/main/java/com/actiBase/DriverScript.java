@@ -30,6 +30,7 @@ public class DriverScript {
 		String Browser = Prop.getProperty("browser");
 		if (Browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "./actiBrowsers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.silentOuput", "true");
 			driver = new ChromeDriver();
 		} else {
 			System.setProperty("webdriver.IE.driver", "./actiBrowsers/IEDriverServer.exe");

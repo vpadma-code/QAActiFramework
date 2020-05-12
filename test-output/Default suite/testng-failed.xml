@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.acti.TestCase.LoginTest">
+      <class name="com.acti.TestCase.TestLoginSS">
         <methods>
-          <include name="TestActiLogo"/>
-          <include name="TestLoginDetails"/>
           <include name="PageStart"/>
+          <include name="ScreenShotBase"/>
+          <include name="Reports"/>
+          <include name="SSTest"/>
         </methods>
-      </class> <!-- com.acti.TestCase.LoginTest -->
+      </class> <!-- com.acti.TestCase.TestLoginSS -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
